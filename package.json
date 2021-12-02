@@ -1,0 +1,32 @@
+{
+  "name": "get-your-ass-up",
+  "version": "1.0.0",
+  "private": "true",
+  "files": [
+    "*.mjs",
+    "*.json"
+  ],
+  "type": "module",
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.14.0"
+  },
+  "description": "A simple app to get your ass up from the desk",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.mjs"
+  },
+  "author": "Janos Fekete",
+  "license": "ISC",
+  "dependencies": {
+    "node-notifier": "^9.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.26.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.23.2",
+    "eslint-plugin-prettier": "^3.4.0"
+  }
+}
