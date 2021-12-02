@@ -1,7 +1,8 @@
 import notify from './src/notification.mjs';
+import config from './config/default.json';
 
-const callbackFn = (response, meta) => {
-    console.log(`${response}, ${meta}`);
-}
+const { interval, title, subtitle, message, icon, closeLabel, actions } = config;
 
-notify('mozogj', 'emeld fel a segged', callbackFn);
+setInterval(() => {
+  notify({ title, subtitle, message, icon, closeLabel, actions });
+}, interval);

@@ -1,0 +1,9 @@
+{
+    "interval": "5000",
+    "title": "Get your ass app!",
+    "subtitle": "Move!",
+    "message": "I said move!",
+    "icon": "scotsman.png",
+    "closeLabel": "Got it!",
+    "actions": "Stop it!"
+}
